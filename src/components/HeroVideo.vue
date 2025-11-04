@@ -96,7 +96,6 @@ export default {
   max-width: 1200px;
 }
 
-/* === TEXT SIDE === */
 .text-side {
   flex: 1;
   min-width: 300px;
@@ -135,7 +134,6 @@ export default {
   transform: scale(1.05);
 }
 
-/* === VIDEO SIDE === */
 .video-side {
   flex: 1;
   display: flex;

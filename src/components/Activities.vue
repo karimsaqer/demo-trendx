@@ -1,9 +1,7 @@
 <template>
   <section class="activities" id="activities">
-    <!-- Torn paper top -->
     <div class="torn-paper"></div>
 
-    <!-- Header -->
     <div class="content" data-aos="fade-up">
       <h2 class="title">ACTIVITIES</h2>
       <p class="subtitle">
@@ -11,7 +9,6 @@
       </p>
     </div>
 
-    <!-- Cards -->
     <div class="cards-container">
       <div
         v-for="(activity, index) in activities"
@@ -26,7 +23,6 @@
         <h3>{{ activity.title }}</h3>
         <p>{{ activity.description }}</p>
 
-        <!-- Expanded content -->
         <transition name="fade-slide">
           <div v-if="activity.showDetails" class="details-card">
             <img :src="activity.image" alt="activity" />

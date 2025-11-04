@@ -1,12 +1,10 @@
 <template>
   <header class="header">
     <div class="container">
-      <!-- Logo -->
       <div class="logo">
         <h2>DemoTrendK</h2>
       </div>
 
-      <!-- Navigation -->
       <nav class="nav">
         <a href="#home" @click.prevent="scrollTo('home')">Home</a>
         <a href="#trips" @click.prevent="scrollTo('trips')">Trips</a>
@@ -14,9 +12,7 @@
         <a href="#contact" @click.prevent="scrollTo('contact')">Contact</a>
       </nav>
 
-      <!-- Right Menu -->
       <div class="right-menu">
-        <!-- Language Dropdown -->
         <div class="dropdown">
           <div class="menu-item">
             <i class="fa-solid fa-globe"></i>
@@ -31,7 +27,6 @@
           </ul>
         </div>
 
-        <!-- Currency Dropdown -->
         <div class="dropdown">
           <div class="menu-item">
             <span>USD</span>
@@ -45,7 +40,6 @@
           </ul>
         </div>
 
-        <!-- Search Icon -->
         <div class="menu-item search">
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
